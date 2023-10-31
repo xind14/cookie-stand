@@ -8,7 +8,7 @@ const randomCustomers= function () {
  };
 
 
-// seattle object 
+// seattle objects
 const seattleLocation = {
   name: 'Seattle',
   minCustomers: 23,
