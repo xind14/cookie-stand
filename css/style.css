@@ -87,3 +87,12 @@
     font-size: 1.5em;
   }
   
+  table {
+
+  }
+
+  td {
+    background-color: salmon;
+    padding: 1em;
+    border: 1px solid black;
+  }
