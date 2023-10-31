@@ -1,0 +1,89 @@
+/* *  border: 1px solid black;
+} { */
+
+ *{
+    font-family: 'Helvetica', sans-serif;
+  } 
+  
+  body {
+    background: white;
+  }
+  header {
+    background:black;
+  }
+  
+  header h1 {
+    color: salmon;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  header nav {
+    background: salmon;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    color: black;
+    display: inline-block;
+    padding: 1em 0;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .salmonimg{
+    text-align: center;
+    padding: 2em;
+    border-bottom: 2px solid #111;
+  }
+  
+  .stores {
+    margin: 3em;
+  }
+
+  .locations {
+    margin-bottom: 2em;
+  } 
+  
+  .locations h2 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .locations li {
+    margin: 1em 2em;
+  }
+
+  .generalcontent section {
+    margin: 2em;
+  }
+  .generalcontent p {
+    font-family: 'Georgia', serif;
+    color:rgb(193, 43, 43) ;
+    margin: 2em;
+
+  }
+  
+  main li {
+    color: #352424;
+  }
+  
+  h1, h2 {
+    font-family: 'Righteous', cursive;
+  }
+  
+  footer {
+    background: rgb(200, 196, 196);
+    padding: 3em;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
