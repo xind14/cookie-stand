@@ -1,12 +1,15 @@
 /* *  border: 1px solid black;
 } { */
 
-  * {
+ *{
     font-family: 'Helvetica', sans-serif;
-  }
+  } 
   
+  body {
+    background: white;
+  }
   header {
-    background: #111;
+    background:black;
   }
   
   header h1 {
@@ -29,38 +32,48 @@
   }
   
   header nav ul li {
-    color: #111;
+    color: black;
     display: inline-block;
     padding: 1em 0;
     text-align: center;
-    width: 100px;
+    width: 200px;
   }
   
-  .hero {
+  .salmonimg{
     text-align: center;
     padding: 2em;
-    border-bottom: 1px solid #111;
+    border-bottom: 2px solid #111;
   }
   
-  .content {
+  .stores {
     margin: 3em;
   }
-  
-  .location {
+
+  .locations {
     margin-bottom: 2em;
-  }
+  } 
   
-  .location h2 {
+  .locations h2 {
     font-size: 2em;
     font-weight: bold;
   }
   
-  .location li {
-    margin: .5em 2em;
+  .locations li {
+    margin: 1em 2em;
+  }
+
+  .generalcontent section {
+    margin: 2em;
+  }
+  .generalcontent p {
+    font-family: 'Georgia', serif;
+    color:rgb(193, 43, 43) ;
+    margin: 2em;
+
   }
   
   main li {
-    color: #777;
+    color: #352424;
   }
   
   h1, h2 {
@@ -68,8 +81,9 @@
   }
   
   footer {
-    background: #ccc;
+    background: rgb(200, 196, 196);
     padding: 3em;
     text-align: center;
+    font-size: 1.5em;
   }
   

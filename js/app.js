@@ -1,38 +1,4 @@
 
-
-// Generate a random number of customers that can be used to simulate hourly sales, using Objects/Math/random
-// Calculate and store the simulated amounts of cookies purchased for each hour at each location using average cookies purchased and the random number of customers generated.
-// Store the results for each location in a separate array… perhaps as a property of the object representing that location.
-// Display the values of each array as unordered lists in the browser.
-// Calculating the sum of these hourly totals; your output for each location should look like this:
-
-
-// Make sure to make each location is its own JavaScript object.
-
-// Location	Min / Cust	Max / Cust	Avg Cookie / Sale
-// Seattle	23	65	6.3 
-// Tokyo	3	24	1.2
-// Dubai	11	38	3.7
-// Paris	20	38	2.3
-// Lima	2	16	4.6
-
-// Hours Open: 6am - 7pm
-// Contact Info: 123-456-7890
-// Location: 2901 3rd Ave #300, Seattle, WA 98121
-// Hours Open: 6am - 7pm
-// Contact Info: 222-222-2222
-// Location: 1 Chrome-1-2 Oshiage, Sumida CountQueuingStrategy, Tokyo 131-8634
-// Hours Open: 6am - 7pm
-// Contact Info: 333-333-3333
-// Location: 1 Sheikh Mohammed bin Rashid Blvd - Dubai
-// Hours Open: 6am - 7pm
-// Contact Info: 444-444-4444
-// Location: Champ de MediaStream, 5 Avenue Anatole France, 75007
-// Hours Open: 6am - 7pm
-// Contact Info: 555-555-5555
-// Location: Cache. Gral. Borgoño cuadra 8, Miraflores 15074
-
-
 'use strict';
 
 const hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', 'Total'];
