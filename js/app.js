@@ -58,24 +58,24 @@ const seattleLocation = {
     for ( let i=0; i<hours.length;i++){
       const customersPerHour = randomCustomers.call(this); 
       const cookiesSold = Math.ceil(customersPerHour * this.avgCookie);
-      this.cookiesPerHour.push(cookiesSold);
-      this.totalCookies += cookiesSold
+    (this.cookiesPerHour.push(cookiesSold));
+     (this.totalCookies += cookiesSold)
     }
   },
   render: function(){
     const unorderedList = document.getElementById('seattleList');
-    for ( let i=0; i<hours.length;i++){
+    for ( let i=0; i<hours.length-1;i++){
       const listItem = document.createElement('li');
       listItem.textContent = `${hours[i]}: ${this.cookiesPerHour[i]} cookies`; 
       unorderedList.appendChild(listItem);
+
     } const listItem = document.createElement('li');
       listItem.textContent = `Total: ${this.totalCookies} cookies`;
       unorderedList.appendChild(listItem);
       }
     };
     seattleLocation.randomCookiesNumber(); 
-    seattleLocation.render(); 
-
+   seattleLocation.render(); 
 
 //tokyo  object 
 const tokyoLocation = {
@@ -99,7 +99,7 @@ const tokyoLocation = {
   },
   render: function(){
     const unorderedList = document.getElementById('tokyoList');
-    for ( let i=0; i<hours.length;i++){
+    for ( let i=0; i<hours.length-1;i++){
       const listItem = document.createElement('li');
       listItem.textContent = `${hours[i]}: ${this.cookiesPerHour[i]} cookies`; 
       unorderedList.appendChild(listItem);
@@ -134,7 +134,7 @@ const dubaiLocation = {
   },
   render: function(){
     const unorderedList = document.getElementById('dubaiList');
-    for ( let i=0; i<hours.length;i++){
+    for ( let i=0; i<hours.length-1;i++){
       const listItem = document.createElement('li');
       listItem.textContent = `${hours[i]}: ${this.cookiesPerHour[i]} cookies`; 
       unorderedList.appendChild(listItem);
@@ -167,7 +167,7 @@ const parisLocation = {
   },
   render: function(){
     const unorderedList = document.getElementById('parisList');
-    for ( let i=0; i<hours.length;i++){
+    for ( let i=0; i<hours.length-1;i++){
       const listItem = document.createElement('li');
       listItem.textContent = `${hours[i]}: ${this.cookiesPerHour[i]} cookies`; 
       unorderedList.appendChild(listItem);
@@ -201,7 +201,7 @@ const limaLocation = {
   },
   render: function(){
     const unorderedList = document.getElementById('limaList');
-    for ( let i=0; i<hours.length;i++){
+    for ( let i=0; i<hours.length-1;i++){
       const listItem = document.createElement('li');
       listItem.textContent = `${hours[i]}: ${this.cookiesPerHour[i]} cookies`; 
       unorderedList.appendChild(listItem);
