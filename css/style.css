@@ -45,7 +45,7 @@
     border-bottom: 2px solid #111;
   }
   
-  .stores {
+  /* .stores {
     margin: 3em;
   }
 
@@ -61,8 +61,8 @@
   .locations li {
     margin: 1em 2em;
   }
-
-  .generalcontent section {
+ */
+  /* .generalcontent section {
     margin: 2em;
   }
   .generalcontent p {
@@ -71,10 +71,10 @@
     margin: 2em;
 
   }
-  
-  main li {
+   */
+  /* main li {
     color: #352424;
-  }
+  } */
   
   h1, h2 {
     font-family: 'Righteous', cursive;
@@ -86,15 +86,19 @@
     text-align: center;
     font-size: 1.5em;
   }
-  
+
   th {
     background-color: grey;
     padding: 1em;
     border: 1px solid black;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
   }
 
   td {
     background-color: salmon;
     padding: 1em;
     border: 1px solid black;
+    font-size: 1.2em;
   }
