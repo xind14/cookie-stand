@@ -12,7 +12,7 @@ The header row and footer row are each created in their own stand-alone function
 NOTE: Please use a header cell for both the header row ( containing store hours ), and the footer row ( hourly and grand totals across all stores ).
 */
 
-let hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
+let hours = ['6:00am', '7:00am', '8:00am', '9:00am', '10:00am', '11:00am', '12:00pm', '1:00pm', '2:00pm', '3:00pm', '4:00pm', '5:00pm', '6:00pm', '7:00pm'];
 
 let storeLocation = ['Seattle', 'Tokyo', 'Dubai', 'Paris', 'Lima'];
 
@@ -43,7 +43,7 @@ function Location (name, min, max, avg, openHours, phone, address){
      (this.totalCookies += cookiesSold);
   }
 };
-//Adding render function in to Location constructor
+//Adding render function into Location constructor
 const tableElement = document.getElementById('Table');
 Location.prototype.render = function(){
   this.calCookiesPerHour();
@@ -57,12 +57,31 @@ Location.prototype.render = function(){
     console.log(hourlyData.textContent = this.cookiesPerHour[i]);
     locationRows.appendChild(hourlyData);
   }
+   let locationTotal = document.createElement('th');
+locationTotal.textContent=this.totalCookies;
+locationRows.appendChild(locationTotal);
+};
 
+//Header function
 
+let renderHeader = function (){
+  let headerRow = document.createElement("tr");
+  tableElement.appendChild(headerRow);
 
+  let locationHeader = document.createElement('th');
+locationHeader.textContent = 'Locations';
+  headerRow.appendChild(locationHeader);
 
-
+  let hoursHeader = document.createElement('th');
+  for (let i = 0; i < hours.length; i++) {
+    hoursHeader = document.createElement('th');
+    hoursHeader.textContent = hours[i];
+   headerRow.appendChild(hoursHeader);
+} 
 }
+
+
+renderHeader();
 
 
 // locations time across daily location total header
@@ -70,16 +89,18 @@ Location.prototype.render = function(){
 // total header
 
 
-
-
 //Creating new objects using the constructor 
 let Seattle = new Location('Seattle', 23, 65, 6.3, '6am - 7pm', '123-456-7890', '2901 3rd Ave #300, Seattle, WA 98121');
-// let Tokyo = new Location('Tokyo', 3, 24, 1.2, '6am - 7pm', '222-222-2222', '1 Chrome-1-2 Oshiage, Sumida CountQueuingStrategy, Tokyo 131-8634');
-// let Dubai = new Location('Dubai', 11, 38, 3.7, '6am - 7pm', '333-333-3333', '1 Sheikh Mohammed bin Rashid Blvd - Dubai');
-// let Paris = new Location('Paris', 20, 38, 2.3, '6am - 7pm', '444-444-4444', 'Champ de MediaStream, 5 Avenue Anatole France, 75007');
-// let Lima = new Location('Lima', 2, 16, 4.6, '6am - 7pm', '555-555-5555', 'Cache. Gral. Borgoño cuadra 8, Miraflores 15074');
+let Tokyo = new Location('Tokyo', 3, 24, 1.2, '6am - 7pm', '222-222-2222', '1 Chrome-1-2 Oshiage, Sumida CountQueuingStrategy, Tokyo 131-8634');
+let Dubai = new Location('Dubai', 11, 38, 3.7, '6am - 7pm', '333-333-3333', '1 Sheikh Mohammed bin Rashid Blvd - Dubai');
+let Paris = new Location('Paris', 20, 38, 2.3, '6am - 7pm', '444-444-4444', 'Champ de MediaStream, 5 Avenue Anatole France, 75007');
+let Lima = new Location('Lima', 2, 16, 4.6, '6am - 7pm', '555-555-5555', 'Cache. Gral. Borgoño cuadra 8, Miraflores 15074');
 
 Seattle.render();
+Tokyo.render();
+Dubai.render();
+Paris.render();
+Lima.render();
 
 
 /*
@@ -260,5 +281,4 @@ const limaLocation = {
       }
     };
     limaLocation.randomCookiesNumber(); 
-   limaLocation.render(); 
-*/
+   limaLocation.render();*/
