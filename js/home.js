@@ -62,9 +62,7 @@ function Location(name, min, max, avg, openHours, phone, address) {
 }
 
 
-Adding render function into Location constructor
-
-
+//Adding render function into Location constructor
 const storeInfo = document.getElementById("root");
 Location.prototype.renderLocationInfo = function () {
 
