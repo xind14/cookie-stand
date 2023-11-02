@@ -1,16 +1,6 @@
 
 'use strict';
-/*
-Replace all of your object literals for the salmon cookie stand with a single constructor function that, when called with the ‘new’ keyword, it creates a new instance.
 
-Replace the lists of your data for each store and build a single table of data instead. It should look similar to the following:
-
-Display each stores data in a table format similar to what is below. Break each column by the hour and complete each row with a “Daily Location Total”.
-
-Each cookie stand location should have a separate render() method that creates and appends its row to the table
-The header row and footer row are each created in their own stand-alone function
-NOTE: Please use a header cell for both the header row ( containing store hours ), and the footer row ( hourly and grand totals across all stores ).
-*/
 
 let hours = ['6:00am', '7:00am', '8:00am', '9:00am', '10:00am', '11:00am', '12:00pm', '1:00pm', '2:00pm', '3:00pm', '4:00pm', '5:00pm', '6:00pm', '7:00pm'];
 
