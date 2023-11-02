@@ -43,38 +43,35 @@
     text-align: center;
     padding: 2em;
     border-bottom: 2px solid #111;
+    width: 100%;
   }
   
-  /* .stores {
-    margin: 3em;
+
+
+  div {
+    margin: 2em; 
   }
 
-  .locations {
-    margin-bottom: 2em;
+
+
+ div section {
+    margin: 1em 2em;
   } 
   
-  .locations h2 {
+h2 {
     font-size: 2em;
     font-weight: bold;
   }
   
-  .locations li {
-    margin: 1em 2em;
-  }
- */
-  /* .generalcontent section {
-    margin: 2em;
-  }
-  .generalcontent p {
+ 
+
+ul li {
     font-family: 'Georgia', serif;
     color:rgb(193, 43, 43) ;
     margin: 2em;
 
   }
-   */
-  /* main li {
-    color: #352424;
-  } */
+ 
   
   h1, h2 {
     font-family: 'Righteous', cursive;
