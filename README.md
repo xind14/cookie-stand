@@ -54,3 +54,30 @@
 3. How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
  
 - It took me 7 hours to do this assignment again. I knew it was going to take me a long time because we had to make the code dry using a new concept and make a table which is another concept. 
+
+## Salmon Cookies Pt.3 Finishing up Home page
+
+### Author: Xin Deng
+
+### Links and Resources
+
+1. [Setting Up a New Code 201 Project](https://codefellows.github.io/code-201-guide/curriculum/class-02/project-setup)
+
+
+### Lighthouse Accessibility Report Score
+
+![Lighthouse report for Lab 8](img/lighthouse3.png)
+
+### Reflections and Comments
+
+1. How did this go, overall?
+
+ - Much easier after doing lab 7's functions and it was quick to add CSS stuff afterwards. Part a took me longer. I will go back and fix accessability issues after this submit.
+
+2. What observations or questions do you have about what you’ve learned so far?
+
+- I copied a section of my code from lab 7 and it was a mistake because there was a lot of syntax errors when I thought renaming the variables would be faster, but I should've just typed them out.
+
+3. How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+
+ - This assignment took me and hour and a half, I didn't think it would take me long because I had lab 7's code almost finished, so it was just about refining so visual issues. 
