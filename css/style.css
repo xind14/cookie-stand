@@ -131,29 +131,36 @@ td {
   border: 4px solid rgb(0, 115, 255)
 }
 
+/* Forms section */
+form {
+  border: 4px solid pink
+}
+fieldset {
+  border: 1px solid #000;
+  padding: 1em;
+  margin: 2em;
+  border: 4px solid green
+}
+legend {
+  color: salmon;
+  font-family: 'Righteous', cursive;
+  padding: .2em;
+  margin-left: 2em;
+  border: 4px solid rgb(0, 115, 255)
+}
 
 
+label {
+  margin-left: .5em;
+  border: 4px solid teal
+}
 
+input {
+  width: 100px;
+  border: 4px solid gold
+}
 
-
-
-
-/* Validate your html through HTML5 validation.
-
-Confirm that your code is following the single responsibility rule. Each function should only do one thing, with the capability to break it out further as needed.
-
-
-If not complete from lab 7, write a stand-alone function to generate a footer row which will display the total number of cookies sold per hour for all locations. When a new store is added using your form, the totals in the footer row should update to include these new sales numbers.
-HINT: The document.querySelectorAll() method might be useful when re-rendering your footer row Document.querySelectorAll().
-
-Upon submission of the HTML form, create an event handler that creates a new instance of a cookie stand that appends to the table upon form submission.
-
-
-  salmon h2 font "Add a new store to the table!!!"
-  Location Name submit box
-  Minimum Customers Per Hour drop down?
-  Maximum Customers Per Hour drop down
-  Average Cookies Per Sale submit 
-  button round grey background Click here to add! 
-  all inline and inside a black box but title interrupts it in left top corner 
-  
+button {
+  margin-left: .5em;
+  border: 4px solid teal
+}
