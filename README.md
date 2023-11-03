@@ -103,7 +103,7 @@
 
 2. What observations or questions do you have about what you’ve learned so far?
 
-- Why is this so hard....I really do have to reteach myself during lab time in order to undestand what was talked about each class.
+- Why is this so hard....I really do have to reteach myself during lab time in order to understand what was talked about each class.
 
 3. How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 
