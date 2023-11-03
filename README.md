@@ -81,3 +81,30 @@
 3. How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 
  - This assignment took me and hour and a half, I didn't think it would take me long because I had lab 7's code almost finished, so it was just about refining so visual issues. 
+
+ ## Salmon Cookies Pt.4 Finishing up Home page
+
+### Author: Xin Deng
+
+### Links and Resources
+
+1. [Setting Up a New Code 201 Project](https://codefellows.github.io/code-201-guide/curriculum/class-02/project-setup)
+
+
+### Lighthouse Accessibility Report Score
+
+![Lighthouse report for Lab 9](img/lighthouse4.png)
+
+### Reflections and Comments
+
+1. How did this go, overall?
+
+ - Similar to other labs with functions, I had a hard time following the execution order so I had trouble writing things correctly. And it seemed like some things that were shown in the class demo didn't work so I had to figured that out which took so long.
+
+2. What observations or questions do you have about what you’ve learned so far?
+
+- Why is this so hard....I really do have to reteach myself during lab time in order to understand what was talked about each class.
+
+3. How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+
+- This took me 7 hours. I'm sensing a pattern, most of my labs have been 7 hours at least or more. I don't don't think about how long it's going to take me anymore because I just know it's going to be hard. Like I stayed up till 3 am for yesterdays lab. 
