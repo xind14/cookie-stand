@@ -108,3 +108,30 @@
 3. How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 
 - This took me 7 hours. I'm sensing a pattern, most of my labs have been 7 hours at least or more. I don't don't think about how long it's going to take me anymore because I just know it's going to be hard. Like I stayed up till 3 am for yesterdays lab. 
+
+## Salmon Cookies Pt.4 Finishing up Home page
+
+### Author: Xin Deng
+
+### Links and Resources
+
+1. [Setting Up a New Code 201 Project](https://codefellows.github.io/code-201-guide/curriculum/class-02/project-setup)
+2. Used ChatGPT for the about us sections 
+
+### Lighthouse Accessibility Report Score
+
+![Lighthouse report for Lab 10](img/lighthouse5.png)
+
+### Reflections and Comments
+
+1. How did this go, overall?
+
+ - I feel ok looking at the end result of this. It looks like a decent website. I wanted to do some of the stretch goals posted in the lab 6 instructions but I'm tired and it's the weekend so I'm gonna take a break.
+
+2. What observations or questions do you have about what you’ve learned so far?
+
+- One of the things I was frustrated on for lab 9 was solved in lab 10 because I figured out through the inspect window that reset.css was messing me up, I changed one thing and it fixed everything.
+
+3. How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+
+- This took me 2 hours to refine and finish adding CSS to things. I thought it would be shorter, but I had to fix other lab mistakes I didn't know I had with CSS that I didn't get to.

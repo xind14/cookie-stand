@@ -12,6 +12,10 @@ header {
   width: 100vw;
 }
 
+a {
+  color: rgb(39, 0, 56)
+}
+
 header h1 {
   color: salmon;
   font-size: 3em;
@@ -46,7 +50,6 @@ h2 {
 footer {
   background: rgb(200, 196, 196);
 text-align: center;
-
 padding: 20px;
   font-size: 20px;
 
@@ -57,41 +60,58 @@ padding: 50px;
 
 }
 
+
+
 /* Home page */
 
 .salmonimg {
   text-align: center;
   padding: 4em;
   border-bottom: 2px solid #111;
-  /* width: 500px; */
-  /* border: 2px solid black; */
+}
+
+.color {
+  background: lightblue;
+  height: 100vh;
+}
+
+.store {
+  text-align: center;
+margin-top: 50px;
 }
 
 div {
   margin: 2em;
-  border: 2px solid royalblue;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 div section {
-  margin: 1em 2em;
-  border: 2px solid peru;
-  max-width: fit-content;
+  /* margin: 1em 2em; */
+  border: 3px solid rgb(101, 11, 101);
+  text-align: center;
+  margin: 5px;
+  
 }
 
 div ul li {
   font-family: "Georgia", serif;
-  color: rgb(255, 0, 0);
+  color: rgb(117, 0, 94);
   margin: 1em;
 }
 
 /* Sales Page */
 
+.sales{
+  background: lightblue;
+}
+
 #Table {
   text-align: center;
   margin: 0 auto; 
   margin-bottom: 20px;
+  vertical-align: baseline;
 }
-
 
 th, td {
   text-align: center;
@@ -123,6 +143,8 @@ legend {
   font-family: 'Righteous', cursive;
   /* padding: 10px; */
   margin-left: 20px;
+  font-size: large;
+  font-display: ;
 }
 
 
